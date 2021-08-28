@@ -1,0 +1,39 @@
+@import '../../sass/variables.scss';
+
+.social-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    &__text {
+        max-width: 450px;
+        
+        @media screen and (max-width:1024px) {
+            // font-size: 32px;
+            // letter-spacing: 1;
+            text-align: center;
+            // margin-top: 15px ;
+        }
+    }
+
+    &__header {
+        font-size: 45px;
+        font-weight: 700;
+        color: $very-dark-magenta;
+        letter-spacing: 1.2;
+
+        @media screen and (max-width:1024px) {
+            font-size: 32px;
+            letter-spacing: 1;
+            text-align: center;
+        }
+    }
+
+    &__description {
+        color: $dark-grayish-magenta;
+        @media screen and (max-width:1024px) {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+}

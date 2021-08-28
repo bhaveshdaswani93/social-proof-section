@@ -1,0 +1,20 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assest/bg-pattern-top-desktop.svg'),url('./assest/bg-pattern-bottom-desktop.svg');
+  background-repeat: no-repeat,no-repeat;
+  background-position: left top,right bottom;
+  padding: 100px 150px;
+
+  @media screen and (max-width:1200px) {
+    padding: 60px 80px;
+  }
+
+  @media screen and (max-width:1024px) {
+    padding: 40px;
+    overflow-y: auto;
+    
+  }
+
+}
+

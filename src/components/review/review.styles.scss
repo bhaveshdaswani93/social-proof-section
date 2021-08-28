@@ -1,0 +1,56 @@
+@import '../../sass/variables.scss';
+
+.review {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    background-color: $very-dark-magenta--1;
+    // margin-right: 25px;
+    border-radius: 10px;
+
+    &__user-info {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__avtar {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+    }
+
+    &__user-detail {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        
+        
+    }
+
+    &__user-name {
+        color: $white;
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    &__user-verified-buyer {
+        color: $soft-pink;
+        font-size: 16px;
+    }
+
+    &__text {
+        color: $light-grayish-magenta;
+        text-align: start;
+    }
+
+    &__text::before {
+        content: '"';
+    }
+
+    &__text::after {
+        content: '"';
+    }
+
+
+
+}
